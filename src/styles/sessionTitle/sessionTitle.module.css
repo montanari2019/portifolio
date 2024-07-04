@@ -1,0 +1,18 @@
+.container {
+    width: 100%;
+}
+
+.title {
+    font-size: calc(var(--FONT-SIZE-XL) * 2);
+    letter-spacing: 0.3rem;
+
+}
+
+.separator {
+    width: 20%;
+    height: 0.2rem;
+    border-radius: 10px;
+    background-color: var(--GREEN_500);
+    box-shadow: 0px 0px 15px 2px var(--GREEN_500);
+
+}

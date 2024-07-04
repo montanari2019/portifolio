@@ -1,6 +1,6 @@
-import { HeaderProps } from "@/models/header.models";
+import { HeaderModelProps } from "@/models/header.models";
 
-export const navItens:HeaderProps[] = [
+export const navItens:HeaderModelProps[] = [
     {
         locality: "",
         title: "About",

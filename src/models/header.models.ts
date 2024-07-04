@@ -1,4 +1,4 @@
-export interface HeaderProps{
+export interface HeaderModelProps{
     title: string;
     locality: string;
 }

@@ -1,6 +1,6 @@
 import { ReactElement } from "react";
 
-export interface IconComponentProps {
+export interface IconComponentModelProps {
     url: string;
     icon: ReactElement
 }
