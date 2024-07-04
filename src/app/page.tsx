@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-   <main style={{width: "100%"}}>
+   <main style={{width: "100%", }}>
       <Header/>
 
       <HomeScreens/>

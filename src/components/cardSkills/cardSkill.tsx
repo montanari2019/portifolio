@@ -11,20 +11,16 @@ export function CardSkill({
   title,
   url,
 }: SkillModelProps) {
-
-    const style = {
-        border: `solid 1px ${color}`,
-        backgroundColor: bgColor,
-        '--pulse-color': color,
-      } as React.CSSProperties;
+  const style = {
+    border: `solid 1px ${color}`,
+    backgroundColor: bgColor,
+    "--pulse-color": color,
+  } as React.CSSProperties;
   return (
-    <a
-      href={url}
-      target="_blank"
-      className={styled.container}
-      style={style}
-    >
-      <img src={iconUrl} alt={title} className={styled.imgItem} />
-    </a>
+
+      <a href={url} target="_blank" className={styled.container} style={style}>
+        <img src={iconUrl} alt={title} className={styled.imgItem} />
+      </a>
+   
   );
 }

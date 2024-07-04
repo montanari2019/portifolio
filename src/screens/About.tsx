@@ -23,7 +23,8 @@ export function AboutScreens() {
         <div className={styled.skillDisplay}>
           {skils.map((index) => {
             return (
-              <CardSkill
+             
+                <CardSkill
                 bgColor={index.bgColor}
                 color={index.color}
                 description={index.description}
@@ -32,6 +33,7 @@ export function AboutScreens() {
                 url={index.url}
                 key={index.title}
               />
+           
             );
           })}
         </div>

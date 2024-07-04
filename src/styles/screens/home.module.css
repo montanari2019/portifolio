@@ -1,5 +1,7 @@
-.contianer{
-    height: 100vh;
+.container{
+
+    width: 100%;
+      padding: 0 15rem;
 }
 
 .containerSections{
@@ -19,13 +21,15 @@
 }
 
 .titlesDisplay{
+    /* width: 100%; */
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     gap: 1rem
 }
 
 .titleAsap{
     font-size: calc(var(--FONT-SIZE-XL) * 1.5);
+    line-height: 1.7;
 }
 
 .titleBebas{
