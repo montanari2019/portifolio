@@ -4,6 +4,6 @@ import { Experience } from "@/presentation/screens/Experience";
 
 // DIConfig.config();
 
-export default function Home() {
+export default function ExperienceComponent() {
   return <Experience/>
 }

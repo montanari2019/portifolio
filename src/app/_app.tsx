@@ -1,12 +1,12 @@
-import "reflect-metadata"; // Import the reflect-metadata polyfill
-import { AppProps } from "next/app";
-import { DIConfig } from "@/config/di";
+// import "reflect-metadata"; // Import the reflect-metadata polyfill
+// import { AppProps } from "next/app";
+// import { DIConfig } from "@/config/di";
 
-console.log("foi")
-DIConfig.config();
+// console.log("foi")
+// DIConfig.config();
 
-function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
-}
+// function MyApp({ Component, pageProps }: AppProps) {
+//   return <Component {...pageProps} />;
+// }
 
-export default MyApp;
+// export default MyApp;
