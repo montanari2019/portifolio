@@ -7,7 +7,7 @@ export const navItens:HeaderModelProps[] = [
     },
     {
         locality: "",
-        title: "Profile",
+        title: "Portifolio",
     },
     {
         locality: "",
