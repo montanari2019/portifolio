@@ -1,16 +1,14 @@
-import { Header } from "@/components/header/header";
-import { AboutScreens } from "@/screens/About";
-import { HomeScreens } from "@/screens/Home";
-import Image from "next/image";
-
+import { Header } from "@/presentation/components/header/header";
+import { AboutScreens } from "@/presentation/screens/About";
+import { HomeScreens } from "@/presentation/screens/Home";
 
 export default function Home() {
   return (
-   <main style={{width: "100%", }}>
-      <Header/>
+    <main style={{ width: "100%" }}>
+      <Header />
 
-      <HomeScreens/>
-      <AboutScreens/>
-   </main>
+      <HomeScreens />
+      <AboutScreens />
+    </main>
   );
 }

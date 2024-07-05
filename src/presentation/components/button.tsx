@@ -1,8 +1,8 @@
 "use client";
 
-import { ButtonModelProps } from "@/models/buttons.model";
 import styled from "../styles/button/button.module.css";
 import { CSSProperties } from "react";
+import { ButtonModelProps } from "./props/buttons.model";
 
 export function Button({
   field,

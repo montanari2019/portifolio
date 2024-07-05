@@ -1,7 +1,6 @@
 "use client";
-import { SkillModelProps } from "@/models/skill.model";
 import styled from "../../styles/cardSkill/cardSkill.module.css";
-import imgLoog from "../../assets/nestjs.svg";
+import { SkillModelProps } from "../props/skill.model";
 
 export function CardSkill({
   bgColor,

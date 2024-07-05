@@ -1,5 +1,5 @@
-import { ParagraphModelProps } from "@/models/paragraph.model";
 import styled from "../../styles/paragraph/paragraph.module.css";
+import { ParagraphModelProps } from "../props/paragraph.model";
 export function Paragraph({
   description,
   textAlignment,
