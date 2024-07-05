@@ -1,6 +1,7 @@
-import { navItens } from "@/utils/header.nav";
+
 import { NavItem } from "./navItem";
 import styled from "../../styles/header/header.module.css"
+import { navItens } from "@/presentation/utils/header.nav";
 
 export function Header() {
   return (

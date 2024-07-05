@@ -1,10 +1,10 @@
 'use client'
-import { SessionTitle } from "@/components/sessionTitle/sessionTitle";
+import { SessionTitle } from "@/presentation/components/sessionTitle/sessionTitle";
 import styled from "../styles/screens/about.module.css";
-import { Paragraph } from "@/components/paragraph/paragraph";
-import { aboutParahraph } from "@/utils/textUtils";
-import { skils } from "@/utils/mySkils";
-import { CardSkill } from "@/components/cardSkills/cardSkill";
+import { Paragraph } from "@/presentation/components/paragraph/paragraph";
+import { aboutParahraph } from "@/presentation/utils/textUtils";
+import { skils } from "@/presentation/utils/mySkils";
+import { CardSkill } from "@/presentation/components/cardSkills/cardSkill";
 export function AboutScreens() {
   return (
     <main className={styled.container}>
