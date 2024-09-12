@@ -1,0 +1,60 @@
+:root {
+  --GREEN_400: #03b8aa;
+  --GREEN_500: #00ae9d;
+  --GRAY_100: #e1e1e6;
+  --GRAY_200: #c4c4cc;
+  --GRAY_400: #8d8d99;
+  --GRAY_500: #7c7c8a;
+  --GRAY_600: #323238;
+  --GRAY_700: #202024;
+  --GRAY_800: #1e1e1e;
+
+  --RED_NESTJS: #e0234e;
+  --BLUE_REACT: #61dafb;
+  --PUPLE_NEXTS: #6c5aef;
+  
+
+  /* Font sizes */
+  --FONT-SIZE-XL: 2rem;
+  --FONT-SIZE-LG: 1.5rem;
+  --FONT-SIZE-MD: 1.25rem;
+  --FONT-SIZE-SM: 1rem;
+  --FONT-SIZE-XS: 0.875rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+input,
+select,
+textarea,
+button {
+  font-weight: 400;
+  font-size: var(--FONT-SIZE-SM);
+  background-color: var(--GRAY_700);
+  color: var(--GRAY_100);
+  --webkit-font-smoothing: antialiased;
+}
+
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+body::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: var(--GRAY_600);
+}
+body::-webkit-scrollbar-thumb {
+  /* border-radius: 10px; */
+  background: var(--GREEN_500);
+}
+
+@media (max-width: 1025px) {
+  body {
+    gap: 0;
+  }
+}
