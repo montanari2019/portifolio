@@ -16,6 +16,8 @@ export default function Home() {
 
       <AboutScreens/>
       <Portifolio/>
+
+      <Experience/>
      
 
    </main>

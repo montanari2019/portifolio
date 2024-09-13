@@ -15,6 +15,7 @@ With a solid foundation in systems development, I am always excited to face new 
 
 export const experiences = [
   {
+    id: 1,
     year: "2024",
     title: "JAVASCRIPT fULL sTACK DEVELOPER",
     subtitle: "Sicoob Agrotech - Vilhena Ro",
@@ -52,6 +53,7 @@ This project is available in my personal portfolio.`,
   },
 
   {
+    id: 2,
     year: "2023",
     title: "JAVASCRIPT fULL sTACK DEVELOPER",
     subtitle: "Sicoob Credisul - Vilhena Ro",
@@ -95,6 +97,7 @@ These projects are owned by sicoob credisul so they are not listed in my portfol
   },
 
   {
+    id: 3,
     year: "2022",
     title: "JAVASCRIPT fULL sTACK DEVELOPER",
     subtitle: "Postos Mirian - Vilhena Ro",
@@ -141,6 +144,7 @@ These projects are owned by sicoob credisul so they are not listed in my portfol
 
 
   {
+    id: 4,
     year: "2020",
     title: "Financial products analyst",
     subtitle: "Sicoob Credisul - Vilhena Ro",
