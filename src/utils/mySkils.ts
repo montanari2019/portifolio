@@ -1,11 +1,11 @@
-import reactLogo from "../assets/react-native.svg"
-import dockerLogo from "../assets/docker.svg"
-import nextjsLogo from "../assets/nextjs-13.svg"
-import nestjstLogo from "../assets/nestjs.svg"
-import postgresqlLogo from "../assets/postgresql.svg"
-import javascriptLogo from "../assets/logo-javascript.svg"
-import typescriptLogo from "../assets/typescript.svg"
-import prismaLogo from "../assets/prisma.svg"
+import reactLogo from "../assets/logoStacks/react-native.svg"
+import dockerLogo from "../assets/logoStacks/docker.svg"
+import nextjsLogo from "../assets/logoStacks/nextjs-13.svg"
+import nestjstLogo from "../assets/logoStacks/nestjs.svg"
+import postgresqlLogo from "../assets/logoStacks/postgresql.svg"
+import javascriptLogo from "../assets/logoStacks/logo-javascript.svg"
+import typescriptLogo from "../assets/logoStacks/typescript.svg"
+import prismaLogo from "../assets/logoStacks/prisma.svg"
 
 export const skils = [
     {
@@ -35,7 +35,7 @@ export const skils = [
     },
     {
         icon: nestjstLogo.src,
-        title: "PostgreSQL",
+        title: "Nestjs",
         description: "NestJS é um framework Node.js de código aberto destinado ao desenvolvimento de aplicativos do lado do servidor. Foi criado por Kamil Mysliwiec e lançado em 2017. Sob o capô, por padrão, o NestJS faz uso do framework Express.js, sendo também compatível com o Fastify. Sua arquitetura é fortemente inspirada no Angular.",
         url: "https://nestjs.com/",
         color: "#e0234e",

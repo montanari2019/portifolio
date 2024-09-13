@@ -1,0 +1,20 @@
+.container {
+  background-color: var(--GRAY_700);
+  width: 100%;
+ 
+  gap: 2rem;
+  padding: 5rem 0;
+  padding-left: 15rem;
+}
+
+.container > h2 {
+  margin-top: 2rem;
+}
+
+.cardImagens{
+  margin: 2rem 0;
+}
+
+@media (max-width: 1025px) {
+ 
+}

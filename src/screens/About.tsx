@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import { SessionTitle } from "@/components/sessionTitle/sessionTitle";
 import styled from "../styles/screens/about.module.css";
 import { Paragraph } from "@/components/paragraph/paragraph";
@@ -17,23 +17,25 @@ export function AboutScreens() {
         description={aboutParahraph}
       />
 
+
+
       <section className={styled.skills}>
+     
         <h1>My Skills</h1>
 
         <div className={styled.skillDisplay}>
           {skils.map((index) => {
             return (
-             
-                <CardSkill
+              <CardSkill
+              key={index.title}
                 bgColor={index.bgColor}
                 color={index.color}
                 description={index.description}
                 iconUrl={index.icon}
                 title={index.title}
                 url={index.url}
-                key={index.title}
+                
               />
-           
             );
           })}
         </div>

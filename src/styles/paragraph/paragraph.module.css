@@ -2,3 +2,7 @@
     width: 100%;
     color: var(--GRAY_100);
 }
+
+@media (max-width: 1025px) {
+    
+}

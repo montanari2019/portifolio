@@ -17,7 +17,7 @@ export function HomeScreens() {
         <section>
           <div className={styled.titles}>
             <div className={styled.titlesDisplay}>
-              <h1 className={styled.titleAsap}>I’m</h1>
+              <h1 className={styled.titleAsap}>I’m</h1> 
               <div className={bebas.className}>
                 <h1 className={styled.titleBebas}>Ikaro Montanari</h1>
               </div>

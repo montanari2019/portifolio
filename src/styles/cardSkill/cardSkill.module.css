@@ -23,4 +23,7 @@
     box-shadow: 0 0 50px 10px var(--pulse-color);
 }
 
+@media (max-width: 1025px) {
+    
+}
   
