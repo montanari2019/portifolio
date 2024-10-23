@@ -19,7 +19,7 @@ export const experiences = [
     year: "2024",
     title: "JAVASCRIPT fULL sTACK DEVELOPER",
     subtitle: "Sicoob Agrotech - Vilhena Ro",
-    describe: `In 2024, I had the opportunity, as a freelancer together with my friend Igor Bueno, to develop the multiplatform mobile application Sicoob Agrotech, used on April 4th, 5th and 6th, 2024.
+    describe: `In 2024, I had the opportunity, as a freelancer, to develop the multiplatform mobile application Sicoob Agrotech, used on April 4th, 5th and 6th, 2024.
 
 The application had several functionalities, such as geolocation of exhibitors throughout the fair, reading of QR code to count scores, social login, notifications, sale of exhibitors' products and listing of available lectures, all with a locator to make it easier for visitors to find your destination correctly. We use NestJS for the backend, React Native for the mobile app, and NextJS for the administration frontend. We also integrate several services such as high scalability, which at one point during the fair had eleven thousand simultaneous accesses, CI/CD, Docker and Azure Blob Storage. It was one of the most incredible projects I participated in, as I was completely at the forefront of its implementation, and Igor was also a fundamental pillar in its creation.
 
