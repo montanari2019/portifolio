@@ -1,29 +1,28 @@
 export const aboutParahraph = `
-I am a technology and innovation enthusiast, with extensive experience in software development and data analysis, focusing mainly on systems development.
+Sou um desenvolvedor especializado em software e análise de dados, com forte expertise em sistemas web escaláveis e soluções inovadoras. 
 
-Between 2018 and 2021, I studied Systems Analysis and Development at IFRO in Vilhena, Rondônia. During this period, I focused my efforts on web languages ​​such as JavaScript and became familiar with Vue.js, React.js and Node.js. I highlight the creation of an innovative TCC project, a management system for an association of academics. Users could join online, with administrators having full control, including issuing invoices integrated with the Sicoob bank API. This allowed me to graduate with honors and explore AWS for infrastructure.
+Formado em Análise e Desenvolvimento de Sistemas pelo IFRO – Vilhena/RO (2018-2021), construí uma base sólida em JavaScript, TypeScript, React.js, Vue.js, Node.js e NestJS, além de experiência prática em MongoDB, PostgreSQL, Prisma ORM, Docker, AWS e Kubernetes. 
 
-After graduation, I started my career as a Systems Developer. Contributed to IFRO in developing a front-end in React.js with Material-UI for a portfolio of projects, implementing an authentication layer with React Context.
+Durante minha trajetória, desenvolvi projetos de alto impacto, como um sistema de gestão para uma associação acadêmica, integrando a API bancária do Sicoob para automação de pagamentos. 
 
-I also improved my skills through courses focused on JavaScript at Rocketseat, creating applications with attractive and responsive interfaces, adopting the best market practices.
-At Rede de Postos Miran, with the M-Park project, I developed the front-end in React.js and the back-end with NestJS. This included responsive graphics, design patterns, session control and integration with Totvs.
+Fui o responsável pelo desenvolvimento do M-Park na Rede de Postos Miran, um sistema completo com front-end em React.js, back-end em NestJS, gráficos interativos e integração com Totvs. 
 
-Currently, I work in project development at Sicoob Credisul, where I focus my efforts on creating innovative and effective solutions that meet the organization's needs. I continue to improve my skills and knowledge, staying at the forefront of systems development.
+Também atuei no IFRO, desenvolvendo um portfólio de projetos em React.js com Material-UI, incluindo camada de autenticação avançada. 
 
-With a solid foundation in systems development, I am always excited to face new challenges and contribute to the success of projects in the world of technology.
+Além disso, contribuí para o Sicoob Credisul, desenvolvendo soluções que otimizaram processos internos e melhoraram a experiência dos usuários, sempre focando em arquiteturas escaláveis, microsserviços e integrações complexas. Minha abordagem prioriza segurança, eficiência e usabilidade, aplicando as melhores práticas do mercado para entregar soluções robustas e bem estruturadas. Estou pronto para enfrentar novos desafios e contribuir para projetos inovadores que exijam tecnologia de alto desempenho e escalabilidade.
 `;
 
 export const experiences = [
   {
     id: 1,
     year: "2024",
-    title: "JAVASCRIPT fULL sTACK DEVELOPER",
+    title: "DESENVOLVEDOR FULL STACK JAVASCRIPT",
     subtitle: "Sicoob Agrotech - Vilhena Ro",
-    describe: `In 2024, I had the opportunity, as a freelancer, to develop the multiplatform mobile application Sicoob Agrotech, used on April 4th, 5th and 6th, 2024.
+    describe: `Em 2024, tive a oportunidade, como freelancer, de desenvolver o aplicativo multiplataforma Sicoob Agrotech, utilizado nos dias 4, 5 e 6 de abril de 2024.
 
-The application had several functionalities, such as geolocation of exhibitors throughout the fair, reading of QR code to count scores, social login, notifications, sale of exhibitors' products and listing of available lectures, all with a locator to make it easier for visitors to find your destination correctly. We use NestJS for the backend, React Native for the mobile app, and NextJS for the administration frontend. We also integrate several services such as high scalability, which at one point during the fair had eleven thousand simultaneous accesses, CI/CD, Docker and Azure Blob Storage. It was one of the most incredible projects I participated in, as I was completely at the forefront of its implementation, and Igor was also a fundamental pillar in its creation.
+O aplicativo possuía várias funcionalidades, como geolocalização dos expositores ao longo da feira, leitura de QR code para contagem de pontos, login social, notificações, venda de produtos dos expositores e listagem das palestras disponíveis, tudo com um localizador para facilitar que os visitantes encontrassem seu destino corretamente. Utilizamos NestJS para o backend, React Native para o app móvel e NextJS para o frontend de administração. Também integramos vários serviços como alta escalabilidade, que em determinado momento da feira teve onze mil acessos simultâneos, CI/CD, Docker e Azure Blob Storage. Foi um dos projetos mais incríveis que participei, pois estive completamente à frente de sua implementação, e Igor foi também um pilar fundamental em sua criação.
 
-This project is available in my personal portfolio.`,
+Este projeto está disponível em meu portfólio pessoal.`,
     skils: [
       {
         name: "NestJS",
@@ -55,7 +54,7 @@ This project is available in my personal portfolio.`,
   {
     id: 2,
     year: "2023",
-    title: "JAVASCRIPT fULL sTACK DEVELOPER",
+    title: "DESENVOLVEDOR FULL STACK JAVASCRIPT",
     subtitle: "Sicoob Credisul - Vilhena Ro",
     skils: [
       {
@@ -87,19 +86,19 @@ This project is available in my personal portfolio.`,
         id: "ASSGgfSGHDEHFR8745asdbadg",
       },
     ],
-    describe: `At Sicoob Credisul we start by collaborating with all areas of the company during the ideation phase to understand their needs. We then develop intuitive interface prototypes, validate requirements, structure systems for scalability and efficiency, and ensure effective database creation and management. These steps are crucial to meeting organizational and user expectations.
+    describe: `No Sicoob Credisul, começamos colaborando com todas as áreas da empresa durante a fase de ideação para entender suas necessidades. Em seguida, desenvolvemos protótipos de interfaces intuitivas, validamos requisitos, estruturamos sistemas para escalabilidade e eficiência, e garantimos a criação e gestão eficazes dos bancos de dados. Essas etapas são cruciais para atender às expectativas organizacionais e dos usuários.
 
-I lead projects such as “Corporate Performance”, where we use ETL principles to extract financial data and integrate with IBM Cognos to collect information, ensuring security through Azure Active Directory. We also implemented a data entry tool in Excel with rigorous validations.
+Liderei projetos como o "Corporate Performance", onde utilizamos princípios de ETL para extrair dados financeiros e integrar com o IBM Cognos para coletar informações, garantindo segurança através do Azure Active Directory. Também implementamos uma ferramenta de entrada de dados em Excel com rigorosas validações.
 
-I also created the "Voyager" project, much larger and more challenging than Corporate Performance, in which we used the same principle but to analyze data from our clients.
+Criei também o projeto "Voyager", muito maior e mais desafiador que o Corporate Performance, no qual usamos o mesmo princípio, mas para analisar dados dos nossos clientes.
 
-These projects are owned by sicoob credisul so they are not listed in my portfolio, but it can be seen by accessing my github.`,
+Esses projetos são de propriedade do Sicoob Credisul, então não estão listados em meu portfólio, mas podem ser vistos acessando meu GitHub.`,
   },
 
   {
     id: 3,
     year: "2022",
-    title: "JAVASCRIPT fULL sTACK DEVELOPER",
+    title: "DESENVOLVEDOR FULL STACK JAVASCRIPT",
     subtitle: "Postos Mirian - Vilhena Ro",
     skils: [
       {
@@ -131,22 +130,21 @@ These projects are owned by sicoob credisul so they are not listed in my portfol
         id: "ASSGgfSGHDEHFR8745asdbadg",
       },
     ],
-    describe: `At Miran Station Network, I had a lot of experience being involved in the project known as M-park. This project aimed to improve truck parking control at stations that were close to goods movement locations. 
-    
-    My work covered the front-end, using React.js to create a friendly interface, graphics and a design pattern that improved the user experience, I integrated session control features, ensuring the security and fluidity of the application. In the back-end with Nestjs, I focused on user authentication, database rules and integration with Protheus from the company Totvs, fundamental for the system's efficiency, as through it we collect data for insertion into our application, making this service more improved and more efficient database queries.
-    
-    One of the system's most impressive features is its ability to monitor the entry and exit of trucks at the yard. It provides detailed information about the time elapsed since the trucks arrived, the number of invoices received for unloading at the ports and the expected departure times for all trucks. All of this is presented in a graphic, detailed, analytical and concise way, making monitoring and decision-making more effective.
-    
-    Furthermore, the system offers user control, allowing registration and changing passwords via email, making the account management process simple and secure. We also integrated features such as Google reCAPTCHA and Google Analytics to monitor platform usability, which was key to improving user experience and operational efficiency.,
-    
-    Participating in this project from start to finish was an enriching experience, facing technical challenges and contributing to the M-PARK company. I'm proud to have played a vital role in creating this valuable tool. It was a unique opportunity for learning and growth.`,
-  },
+    describe: `Na Rede de Postos Mirian, tive uma grande experiência ao participar do projeto conhecido como M-park. Esse projeto visava melhorar o controle de estacionamento de caminhões em estações próximas a locais de movimentação de mercadorias. 
 
+Meu trabalho cobriu o front-end, utilizando React.js para criar uma interface amigável, gráficos e um padrão de design que melhorou a experiência do usuário. Integrei funcionalidades de controle de sessão, garantindo segurança e fluidez da aplicação. No back-end, com NestJS, foquei na autenticação de usuários, regras de banco de dados e integração com o Protheus da empresa Totvs, fundamental para a eficiência do sistema, pois através dele coletamos dados para inserção em nossa aplicação, tornando o serviço mais aprimorado e com consultas de banco de dados mais eficientes.
+
+Uma das funcionalidades mais impressionantes do sistema é a capacidade de monitorar a entrada e saída dos caminhões no pátio. Ele fornece informações detalhadas sobre o tempo decorrido desde a chegada dos caminhões, o número de faturas recebidas para descarregamento nos portos e os horários de partida esperados para todos os caminhões. Tudo isso é apresentado de forma gráfica, detalhada, analítica e concisa, tornando o monitoramento e a tomada de decisões mais eficazes.
+
+Além disso, o sistema oferece controle de usuários, permitindo registro e alteração de senhas por e-mail, tornando o processo de gestão de contas simples e seguro. Também integramos recursos como Google reCAPTCHA e Google Analytics para monitorar a usabilidade da plataforma, o que foi fundamental para melhorar a experiência do usuário e a eficiência operacional.
+
+Participar desse projeto do início ao fim foi uma experiência enriquecedora, enfrentando desafios técnicos e contribuindo para a empresa M-PARK. Tenho orgulho de ter desempenhado um papel vital na criação dessa ferramenta valiosa. Foi uma oportunidade única de aprendizado e crescimento.`,
+  },
 
   {
     id: 4,
     year: "2020",
-    title: "Financial products analyst",
+    title: "Analista de Produtos Financeiros",
     subtitle: "Sicoob Credisul - Vilhena Ro",
     skils: [
       {
@@ -157,14 +155,13 @@ These projects are owned by sicoob credisul so they are not listed in my portfol
         name: "IBM Cognos",
         id: "dhsfdgdzhgjkfhjadfadgsfg",
       },
- 
     ],
-    describe: `I worked in the commercial area related to financial products and services, mainly supporting products such as Sipag, SicoobCard, Sicoob Bank Collection, Agreements.
-    
-    Dealing directly with the agencies, I provided service both online and in person in certain cases, but most of the time, the service was provided via telephone, helping me communicate with other people and developing a good relationship with colleagues that I did not have the opportunity to meet. everyone, that is, managing to build a good relationship only by listening and speaking and not by seeing.
-    
-    I also served the team as a data analyst, drawing up metrics that supported Sicoob Credisul's 47 agencies in decision-making and strategy.
-    
-    As a data analyst for products and services, I gained a lot of experience in Excel, which was the tool used by the sector. My desire was to improve the data analysis part with Python, or R, but I left the sector in search of an opportunity as a real programmer.`,
+    describe: `Trabalhei na área comercial relacionada a produtos e serviços financeiros, principalmente dando suporte a produtos como Sipag, SicoobCard, Cobrança Sicoob, Acordos.
+
+Atendendo diretamente as agências, prestei serviços tanto online quanto presencialmente em certos casos, mas a maior parte do tempo o atendimento foi prestado por telefone, o que me ajudou a me comunicar com outras pessoas e desenvolver um bom relacionamento com colegas que eu não tive a oportunidade de conhecer pessoalmente, ou seja, consegui construir um bom relacionamento apenas ouvindo e falando, e não vendo.
+
+Também atuei como analista de dados para a equipe, criando métricas que deram suporte às 47 agências do Sicoob Credisul nas tomadas de decisão e estratégias.
+
+Como analista de dados de produtos e serviços, ganhei muita experiência em Excel, que era a ferramenta utilizada pelo setor. Meu desejo era aprimorar a parte de análise de dados com Python ou R, mas deixei o setor em busca de uma oportunidade como programador de fato.`,
   },
 ];

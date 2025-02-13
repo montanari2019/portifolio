@@ -5,11 +5,13 @@ import styled from "../styles/screens/home.module.css";
 import Image from "next/image";
 import foto from "../assets/foto_profile.png";
 import {
+  GithubLogo,
   InstagramLogo,
   LinkedinLogo,
   WhatsappLogo,
 } from "@phosphor-icons/react";
 import { IconComponent } from "@/components/icons/icon";
+import { URLS_ENUM } from "@/utils/urls";
 export function HomeScreens() {
   return (
     <main className={styled.container}>
@@ -17,23 +19,27 @@ export function HomeScreens() {
         <section>
           <div className={styled.titles}>
             <div className={styled.titlesDisplay}>
-              <h1 className={styled.titleAsap}>I’m</h1> 
               <div className={bebas.className}>
                 <h1 className={styled.titleBebas}>Ikaro Montanari</h1>
               </div>
             </div>
-            <p className={styled.paragraph}>Fullstack javascritp developer</p>
+            <p className={styled.paragraph}>Desenvolvedor Fullstack</p>
           </div>
 
-          <Button field title="Contact me" width={313} />
+          <a
+            target="_blank"
+            href={URLS_ENUM.WHATSAPP}
+            style={{ textDecoration: "none" }}
+          >
+            <Button field title="Contate-me" width={313} />
+          </a>
         </section>
 
         <section className={styled.containerProfile}>
           <div className={styled.elipse}></div>
-          <Image
-            src={foto}
-            width={795}
-            height={711}
+          <img
+            src={foto.src}
+            className={styled.imageDev}
             alt="foto do desenvolvedor"
           />
         </section>
@@ -41,18 +47,24 @@ export function HomeScreens() {
         <section className={styled.sectionSocialNetwork}>
           <div className={styled.separator}></div>
 
-          <IconComponent
-            icon={<InstagramLogo size={36} />}
-            url="https://www.instagram.com/ikaro.montanari/"
-          />
-          <IconComponent
-            icon={<LinkedinLogo size={36} weight="fill" />}
-            url="https://www.linkedin.com/in/ikaro-montanari-5aa120208/"
-          />
-          <IconComponent
-            icon={<WhatsappLogo size={36} weight="light" />}
-            url="#"
-          />
+          <div className={styled.networkDisplay}>
+            <IconComponent
+              icon={<InstagramLogo size={36} />}
+              url={URLS_ENUM.INSTAGRAM}
+            />
+            <IconComponent
+              icon={<LinkedinLogo size={36} weight="fill" />}
+              url={URLS_ENUM.LINKEDIN}
+            />
+            <IconComponent
+              icon={<WhatsappLogo size={36} weight="light" />}
+              url={URLS_ENUM.WHATSAPP}
+            />
+            <IconComponent
+              icon={<GithubLogo size={36} weight="light" />}
+              url={URLS_ENUM.GITHUB}
+            />
+          </div>
         </section>
       </div>
       {/* <div className={styled.continuator}></div> */}

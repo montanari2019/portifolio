@@ -1,20 +1,44 @@
 .container {
   background-color: var(--GRAY_700);
   width: 100%;
- 
+
   gap: 2rem;
-  padding: 5rem 0;
-  padding-left: 15rem;
+  padding: 5rem 15rem;
 }
 
 .container > h2 {
   margin-top: 2rem;
 }
 
-.cardImagens{
+.cardImagens {
   margin: 2rem 0;
+}
+.itensPortifolio {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+/* styles.css */
+.iframeStyle {
+  border-radius: 8px;
+  border: 1px solid var(--GRAY_300);
+  margin: 1rem 0;
+  pointer-events: none;
+  user-select: none;
+  width: 100%;
+  height: 450px;
 }
 
 @media (max-width: 1025px) {
- 
+  .container {
+    gap: 1rem;
+    padding: 5rem 2rem;
+  }
+
+  .itensPortifolio {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

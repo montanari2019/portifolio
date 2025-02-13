@@ -24,26 +24,18 @@ export function Experience() {
             <div className={styled.containerDescription}>
               <div>
                 <TitleBebas title={index.title} />
-                <p className={styled.paragraphPosition}>
-                  {index.subtitle}
-                </p>
+                <p className={styled.paragraphPosition}>{index.subtitle}</p>
 
-               <div className={styled.displayFlexSkil}>
-               {
-                    index.skils.map((skil) =>{
-                        return (
-                            <SubTitle key={skil.id} value={`${skil.name},`} />
-                        )
-                    })
-                }
-               </div>
-                
+                <div className={styled.displayFlexSkil}>
+                  {index.skils.map((skil) => {
+                    return <SubTitle key={skil.id} value={`${skil.name},`} />;
+                  })}
+                </div>
               </div>
 
-              <Paragraph
-                description={index.describe}
-                textAlignment="justify"
-              />
+              <Paragraph description={index.describe} textAlignment="justify" />
+
+              <div className={styled.separator}></div>
             </div>
           </div>
         );

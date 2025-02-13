@@ -8,7 +8,7 @@ import { CardSkill } from "@/components/cardSkills/cardSkill";
 export function AboutScreens() {
   return (
     <main className={styled.container}>
-      <SessionTitle title="About" />
+      <SessionTitle title="Sobre" />
 
       <Paragraph
         textAlignment="justify"
@@ -17,24 +17,20 @@ export function AboutScreens() {
         description={aboutParahraph}
       />
 
-
-
       <section className={styled.skills}>
-     
         <h1>My Skills</h1>
 
         <div className={styled.skillDisplay}>
           {skils.map((index) => {
             return (
               <CardSkill
-              key={index.title}
+                key={index.title}
                 bgColor={index.bgColor}
                 color={index.color}
                 description={index.description}
                 iconUrl={index.icon}
                 title={index.title}
                 url={index.url}
-                
               />
             );
           })}

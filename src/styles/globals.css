@@ -12,7 +12,6 @@
   --RED_NESTJS: #e0234e;
   --BLUE_REACT: #61dafb;
   --PUPLE_NEXTS: #6c5aef;
-  
 
   /* Font sizes */
   --FONT-SIZE-XL: 2rem;
@@ -40,7 +39,6 @@ button {
   --webkit-font-smoothing: antialiased;
 }
 
-
 body::-webkit-scrollbar {
   width: 8px;
 }
@@ -55,6 +53,7 @@ body::-webkit-scrollbar-thumb {
 
 @media (max-width: 1025px) {
   body {
+    overflow-x: hidden;
     gap: 0;
   }
 }

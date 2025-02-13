@@ -13,9 +13,9 @@
   cursor: pointer;
   transition: all 0.3s;
 }
-.buttonField:hover{
+.buttonField:hover {
   transition: all 0.3s;
-  box-shadow: 0px 0px 15px 6px var(--GREEN_400)
+  box-shadow: 0px 0px 15px 6px var(--GREEN_400);
 }
 .buttonNotField {
   transition: all 0.3s;
@@ -32,11 +32,22 @@
   cursor: pointer;
 }
 
-.buttonNotField:hover{
+.buttonNotField:hover {
   transition: all 0.3s;
-  box-shadow: 0px 0px 15px 6px var(--GREEN_400)
+  box-shadow: 0px 0px 15px 6px var(--GREEN_400);
 }
 
 .buttonNotField > span {
   color: var(--GREEN_400);
+}
+
+@media (max-width: 1025px) {
+  .buttonNotField {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .buttonField {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
