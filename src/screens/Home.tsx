@@ -1,18 +1,10 @@
 "use client";
 import { bebas } from "@/assets/fonts";
 import { Button } from "@/components/button";
-import styled from "../styles/screens/home.module.css";
-import Image from "next/image";
-import foto from "../assets/foto_profile.png";
-import {
-  GithubLogo,
-  InstagramLogo,
-  LinkedinLogo,
-  WhatsappLogo,
-} from "@phosphor-icons/react";
-import { IconComponent } from "@/components/icons/icon";
-import { URLS_ENUM } from "@/utils/urls";
 import { LinksNetwork } from "@/components/linksNetworking/linksNetworking";
+import { URLS_ENUM } from "@/utils/urls";
+import foto from "../assets/foto_profile.png";
+import styled from "../styles/screens/home.module.css";
 export function HomeScreens() {
   return (
     <main className={styled.container}>

@@ -5,7 +5,7 @@ Formado em Análise e Desenvolvimento de Sistemas pelo IFRO – Vilhena/RO (2018
 
 Durante minha trajetória, desenvolvi projetos de alto impacto, como um sistema de gestão para uma associação acadêmica, integrando a API bancária do Sicoob para automação de pagamentos. 
 
-Fui o responsável pelo desenvolvimento do M-Park na Rede de Postos Miran, um sistema completo com front-end em React.js, back-end em NestJS, gráficos interativos e integração com Totvs. 
+Fui o responsável pelo desenvolvimento do M-Park na Rede de Postos Mirian, um sistema completo com front-end em React.js, back-end em NestJS, gráficos interativos e integração com Totvs. 
 
 Também atuei no IFRO, desenvolvendo um portfólio de projetos em React.js com Material-UI, incluindo camada de autenticação avançada. 
 
