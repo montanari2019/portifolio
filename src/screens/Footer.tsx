@@ -1,12 +1,6 @@
 "use client";
-import { IconComponent } from "@/components/icons/icon";
+import { LinksNetwork } from "@/components/linksNetworking/linksNetworking";
 import { URLS_ENUM } from "@/utils/urls";
-import {
-  GithubLogo,
-  InstagramLogo,
-  LinkedinLogo,
-  WhatsappLogo,
-} from "@phosphor-icons/react";
 import styled from "../styles/screens/footer.module.css";
 export function Footer() {
   return (
@@ -22,26 +16,7 @@ export function Footer() {
       </div>
 
       <div className={styled.networkDisplay}>
-        <div className={styled.separator}></div>
-        <div className={styled.displayNetworkFooter}>
-          <IconComponent
-            icon={<InstagramLogo size={36} />}
-            url={URLS_ENUM.INSTAGRAM}
-          />
-          <IconComponent
-            icon={<LinkedinLogo size={36} weight="fill" />}
-            url={URLS_ENUM.LINKEDIN}
-          />
-          <IconComponent
-            icon={<WhatsappLogo size={36} weight="light" />}
-            url={URLS_ENUM.WHATSAPP}
-          />
-          <IconComponent
-            icon={<GithubLogo size={36} weight="light" />}
-            url={URLS_ENUM.GITHUB}
-          />
-        </div>
-        <div className={styled.separator}></div>
+        <LinksNetwork />
       </div>
     </footer>
   );

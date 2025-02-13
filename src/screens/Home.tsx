@@ -12,6 +12,7 @@ import {
 } from "@phosphor-icons/react";
 import { IconComponent } from "@/components/icons/icon";
 import { URLS_ENUM } from "@/utils/urls";
+import { LinksNetwork } from "@/components/linksNetworking/linksNetworking";
 export function HomeScreens() {
   return (
     <main className={styled.container}>
@@ -29,7 +30,7 @@ export function HomeScreens() {
           <a
             target="_blank"
             href={URLS_ENUM.WHATSAPP}
-            style={{ textDecoration: "none" }}
+            className={styled.linkButton}
           >
             <Button field title="Contate-me" width={313} />
           </a>
@@ -44,28 +45,9 @@ export function HomeScreens() {
           />
         </section>
 
-        <section className={styled.sectionSocialNetwork}>
-          <div className={styled.separator}></div>
-
-          <div className={styled.networkDisplay}>
-            <IconComponent
-              icon={<InstagramLogo size={36} />}
-              url={URLS_ENUM.INSTAGRAM}
-            />
-            <IconComponent
-              icon={<LinkedinLogo size={36} weight="fill" />}
-              url={URLS_ENUM.LINKEDIN}
-            />
-            <IconComponent
-              icon={<WhatsappLogo size={36} weight="light" />}
-              url={URLS_ENUM.WHATSAPP}
-            />
-            <IconComponent
-              icon={<GithubLogo size={36} weight="light" />}
-              url={URLS_ENUM.GITHUB}
-            />
-          </div>
-        </section>
+        <div className={styled.displayLinks}>
+          <LinksNetwork />
+        </div>
       </div>
       {/* <div className={styled.continuator}></div> */}
     </main>
