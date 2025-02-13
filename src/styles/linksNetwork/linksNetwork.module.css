@@ -1,5 +1,6 @@
 .networkDisplay {
   width: 100%;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,12 +13,13 @@
   width: 100%;
   border-radius: 5px;
   background-color: var(--GREEN_500);
-  animation: pulse 5s infinite;
+  animation: pulse 3s infinite;
 }
 
 .displayNetworkFooter {
   display: flex;
-  width: 80%;
+  width: 100%;
+  padding: 1rem 0;
   flex-direction: row;
   align-items: center;
   gap: 1rem;
