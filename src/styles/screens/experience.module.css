@@ -58,6 +58,8 @@
 }
 
 .containerDescription {
+  width: 100%;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   gap: 2rem;
