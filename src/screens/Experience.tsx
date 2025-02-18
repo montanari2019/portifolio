@@ -1,5 +1,5 @@
 import { SessionTitle } from "@/components/sessionTitle/sessionTitle";
-import styled from "../styles/screens/experience.module.css";
+import styled from "../styles/pages/home/screens/experience.module.css";
 import { TitleBebas } from "@/components/paragraph/titleBebas";
 import { SubTitle } from "@/components/paragraph/subTitle";
 import { experiences } from "@/utils/textUtils";

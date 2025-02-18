@@ -1,9 +1,6 @@
-import { Paragraph } from "@/components/paragraph/paragraph";
-import { SessionTitle } from "@/components/sessionTitle/sessionTitle";
-import { aboutParahraph } from "@/utils/textUtils";
-import styled from "../styles/screens/portfolio.module.css";
-import { CardPortifolio } from "@/components/cardportfolio/cardPortfolio";
 import IframeComponent from "@/components/figmaPortfolio/iframe";
+import { SessionTitle } from "@/components/sessionTitle/sessionTitle";
+import styled from "../styles/pages/home/screens/portfolio.module.css";
 
 // data/iframeData.js
 export const iframeData = [

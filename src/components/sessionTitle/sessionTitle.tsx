@@ -1,6 +1,6 @@
 import { SessionTitleModelProps } from "@/models/sessionTitle.model";
 
-import styled from "../../styles/sessionTitle/sessionTitle.module.css";
+import styled from "../../styles/pages/home/sessionTitle/sessionTitle.module.css";
 import { bebas } from "@/assets/fonts";
 
 export function SessionTitle({ title }: SessionTitleModelProps) {

@@ -1,6 +1,6 @@
 "use client";
 import { SessionTitle } from "@/components/sessionTitle/sessionTitle";
-import styled from "../styles/screens/about.module.css";
+import styled from "../styles/pages/home/screens/about.module.css";
 import { Paragraph } from "@/components/paragraph/paragraph";
 import { aboutParahraph } from "@/utils/textUtils";
 import { skils } from "@/utils/mySkils";

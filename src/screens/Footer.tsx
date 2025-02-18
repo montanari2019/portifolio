@@ -1,7 +1,7 @@
 "use client";
 import { LinksNetwork } from "@/components/linksNetworking/linksNetworking";
 import { URLS_ENUM } from "@/utils/urls";
-import styled from "../styles/screens/footer.module.css";
+import styled from "../styles/pages/home/screens/footer.module.css";
 export function Footer() {
   return (
     <footer className={styled.container}>
