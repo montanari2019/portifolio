@@ -40,6 +40,10 @@
   text-align: justify;
   line-height: 30px;
   font-family: "Asap", sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .sectionRigth {
