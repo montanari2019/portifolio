@@ -5,10 +5,12 @@
 }
 
 .containerSections {
-  margin-top: 5rem;
+  width: 100%;
+  height: 100vh;
+  /* margin: 5rem 0; */
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .titles {
@@ -49,25 +51,6 @@
   overflow: hidden;
 }
 
-.elipse {
-  left: 40%;
-  top: 20%;
-  position: fixed;
-  overflow: hidden;
-  z-index: -1;
-  background-color: var(--GREEN_500);
-  width: 500px;
-  height: 500px;
-  border-radius: 50%;
-  filter: blur(100px);
-  animation: pulse 6s ease-in-out infinite;
-}
-
-.imageDev {
-  object-fit: cover;
-  width: 800px;
-  height: 800px;
-}
 .continuator {
   width: 100%;
   background-color: var(--GRAY_700);
@@ -100,6 +83,20 @@
   /* margin: 3rem 0; */
 }
 
+.fotoQuadHd {
+  display: none;
+}
+
+.fotoFullHd {
+  position: absolute;
+  display: block;
+  z-index: -1;
+  object-fit: cover;
+}
+.fotoMobile {
+  display: none;
+}
+
 @keyframes pulse {
   0%,
   100% {
@@ -110,10 +107,36 @@
   }
 }
 
+@media (min-width: 2000px) {
+  .containerSections {
+    justify-content: space-around;
+  }
+
+  .titleBebas {
+    font-size: calc(var(--FONT-SIZE-XL) * 2.8);
+    letter-spacing: 8px;
+    /* line-height: 1.7; */
+  }
+  .paragraph {
+    font-size: calc(var(--FONT-SIZE-LG) * 1.5);
+  }
+}
+
 @media (max-width: 1025px) {
+  .fotoFullHd {
+    display: none;
+  }
+
+  .fotoMobile {
+    position: absolute;
+    display: block;
+    z-index: -1;
+    object-fit: cover;
+  }
   .containerSections {
     overflow-x: hidden;
     flex-direction: column;
+    padding: 4rem 0;
     /* height: 100vh; */
   }
 
