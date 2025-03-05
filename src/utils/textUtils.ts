@@ -16,7 +16,7 @@ export const experiences = [
   {
     id: 1,
     year: "2024",
-    title: "DESENVOLVEDOR FULL STACK JAVASCRIPT",
+    title: "DESENVOLVEDOR FULL STACK",
     subtitle: "Sicoob Agrotech - Vilhena Ro",
     describe: `Em 2024, tive a oportunidade, como freelancer, de desenvolver o aplicativo multiplataforma Sicoob Agrotech, utilizado nos dias 4, 5 e 6 de abril de 2024.
 
@@ -54,7 +54,7 @@ Este projeto está disponível em meu portfólio pessoal.`,
   {
     id: 2,
     year: "2023",
-    title: "DESENVOLVEDOR FULL STACK JAVASCRIPT",
+    title: "DESENVOLVEDOR FULL STACK",
     subtitle: "Sicoob Credisul - Vilhena Ro",
     skils: [
       {
@@ -98,7 +98,7 @@ Esses projetos são de propriedade do Sicoob Credisul, então não estão listad
   {
     id: 3,
     year: "2022",
-    title: "DESENVOLVEDOR FULL STACK JAVASCRIPT",
+    title: "DESENVOLVEDOR FULL STACK",
     subtitle: "Postos Mirian - Vilhena Ro",
     skils: [
       {

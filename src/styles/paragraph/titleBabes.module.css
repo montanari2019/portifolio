@@ -1,5 +1,8 @@
 .paragraph {
   font-size: var(--FONT-SIZE-MD);
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 2;
   text-transform: uppercase;
 }
 
