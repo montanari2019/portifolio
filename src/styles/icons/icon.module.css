@@ -17,11 +17,11 @@
 }
 
 .contianer > a:hover {
-  color: var(--GREEN_500);
+  color: var(--CYANE);
   transition: all 0.3s;
 }
 
 .contianer:hover {
   transition: all 0.3s;
-  color: var(--GREEN_500);
+  color: var(--CYANE);
 }

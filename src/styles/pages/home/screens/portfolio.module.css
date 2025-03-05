@@ -1,7 +1,7 @@
 .container {
-  background-color: var(--GRAY_800);
+  background-color: var(--WITHE);
   width: 100%;
-
+  color: var(--GRAY_600);
   gap: 2rem;
   padding: 5rem 15rem;
 }

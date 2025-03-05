@@ -1,9 +1,9 @@
-.paragraph{
-    font-size: var(--FONT-SIZE-MD);
-    text-transform: uppercase;
+.paragraph {
+  font-size: var(--FONT-SIZE-MD);
+  text-transform: uppercase;
 }
 
-.subTitle{
-    font-size: var(--FONT-SIZE-XS);
-    color: var(--GREEN_500);
+.subTitle {
+  font-size: var(--FONT-SIZE-XS);
+  color: var(--CYANE);
 }

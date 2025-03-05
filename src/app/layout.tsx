@@ -1,6 +1,6 @@
+import { AcuminLocalFont } from "@/assets/fonts";
 import type { Metadata } from "next";
 import "../styles/globals.css";
-import { asap } from "@/assets/fonts";
 
 export const metadata: Metadata = {
   title: "Montanari Soft",
@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={asap.className}>{children}</body>
+      <body className={AcuminLocalFont.className}>{children}</body>
     </html>
   );
 }

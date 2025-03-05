@@ -1,6 +1,8 @@
 :root {
   --GREEN_400: #03b8aa;
   --GREEN_500: #00ae9d;
+  --CYANE: #00c9df;
+
   --GRAY_100: #e1e1e6;
   --GRAY_200: #c4c4cc;
   --GRAY_400: #8d8d99;
@@ -9,11 +11,14 @@
   --GRAY_700: #202024;
   --GRAY_800: #1e1e1e;
 
+  --WITHE: #ffffff;
+
   --RED_NESTJS: #e0234e;
   --BLUE_REACT: #61dafb;
   --PUPLE_NEXTS: #6c5aef;
 
   /* Font sizes */
+  --FONT-SIZE-HEIGTH: 2.3rem;
   --FONT-SIZE-XL: 2rem;
   --FONT-SIZE-LG: 1.5rem;
   --FONT-SIZE-MD: 1.25rem;
@@ -48,7 +53,7 @@ body::-webkit-scrollbar-track {
 }
 body::-webkit-scrollbar-thumb {
   /* border-radius: 10px; */
-  background: var(--GREEN_500);
+  background: var(--CYANE);
 }
 
 @media (max-width: 1025px) {
