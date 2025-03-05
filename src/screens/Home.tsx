@@ -50,10 +50,10 @@ export function HomeScreens() {
               <strong>negócios mais ágeis, escaláveis e eficientes.</strong>
             </p>
             <p>
-              Acreditamos que não temos clientes, mas sim{" "}
-              <strong>parceiros</strong>. Na Montanari Soft, nossas bases são
-              construídas em parceria, honestidade, transparência,
-              comprometimento e paixão pelo que fazemos.{" "}
+              Na Montanari Soft acreditamos que não temos clientes, mas sim{" "}
+              <strong>parceiros</strong>. Nossas bases são construídas em
+              parceria, honestidade, transparência, comprometimento e paixão
+              pelo que fazemos.{" "}
               <strong>
                 {" "}
                 Valorizamos princípios sólidos e entragamos soluções que gerem
