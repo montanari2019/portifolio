@@ -6,6 +6,10 @@ import image from "@/assets/imagens/profile_IM.png";
 
 export const metadata: Metadata = {
   title: "Montanari Soft",
+  verification: {
+    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
+  },
+
   icons: {
     icon: favicon.src, // Caminho para o favicon
     apple: favicon.src, // Ícone para dispositivos Apple (iPhone, iPad)
